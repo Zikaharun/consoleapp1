@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Random dice = new Random();
 
-int daysUntilExiration = 0;
+
+
+int daysUntilExiration = dice.Next(12);
 int discountPercentage = 0;
 
 if (daysUntilExiration == 0) {
